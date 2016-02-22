@@ -1,0 +1,191 @@
+/*global styles*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    background-image: url("images/backgrounds/5.jpg");
+                background-color: rgba(255,255,255, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: black;
+    font-size: 2rem;
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+    .navbar a {
+        color: white;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .nav > li > a:focus,
+    .nav > li > a:hover {
+        background-color: black;
+        color: #ADC237;
+    }
+
+        .nav .open > a,
+        .nav .open > a:focus,
+        .nav .open > a:hover {
+            background-color: black;
+            color: #adc237
+        }
+
+            .dropdown-menu {
+                background-color: black;
+            }
+
+                .dropdown-menu > li > a {
+                    color: white;
+                    text-align: right;
+                }
+
+                    .dropdown-menu > li > a:focus,
+                    .dropdown-menu > li > a:hover {
+                        background-color: black;
+                        color: #adc237;
+                        background-image: none;
+                    }
+
+
+#header {
+    background-color: black;
+    margin-top: 3rem;
+}
+
+    #header img {
+        width: 15%;
+        padding: 1em;
+        margin-left: 2em;
+        margin-top: 2rem;
+    }
+
+    #header h1 {
+        margin-top: 10rem;
+        color: white;
+    }
+                    
+#about {
+}
+
+    #about h1 {
+        font-family: 'Raleway', sans-serif;
+    }
+
+.slider {
+    margin-top: 2rem;
+}
+
+    .slider img {
+        margin-left: 1em;
+        border: black 3px solid;
+    }
+
+#services {
+}
+
+    #services h1 {
+        font-size: 55px;
+        margin-bottom: 2rem;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    #services img {
+        border: 3px solid black;
+    }
+
+.projects {
+
+}
+
+    .projects h1 {
+        font-size: 55px;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 2em;
+    }
+
+    .projects h2 {
+        margin-left: 2em;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .projects .hero {
+        margin-left: 1em;
+        border: #4D4D4D 4px solid;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075);
+        border-radius: 4px;
+    }
+
+.section {
+    margin-top: 2em;
+    padding-top: 2em;
+    border: 2px transparent solid;
+}
+
+#contact {
+}
+
+    #contact h1 {
+        font-family: 'Raleway', sans-serif;
+    }
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 2em;
+}
+
+    footer a {
+        color: #adc237;
+    }
+
+        footer a:hover,
+        footer a:focus {
+            text-decoration: none;
+            color: #739244;
+        }
+
+    footer .joel {
+        padding-right: 8em;
+    }
+
+    footer .social ul {
+        list-style: none;
+    }
+
+        footer .social li {
+            margin-left: 4em;
+            margin-bottom: 1em;
+        }
+
+            footer .social img:hover,
+            footer .social img:focus {
+                background-color: #adc237;
+                border-radius: 5px;
+            }
+
+    .copyright {
+    }
+
+        .copyright p {
+            padding-left: 4em;
+        }
+
+.lightgreen {
+    color: #adc237;
+}
+
+.darkgreen {
+    color:#739244;
+}
+
+.clear {
+    clear: both;
+}
